@@ -9,6 +9,7 @@
       color: #9a9ca4;
       display: flex;
       height: 100%;
+      font: 22px/1 "Inconsolata", monospace;
       justify-content: center;
     }
     body {
@@ -44,6 +45,33 @@
       display: grid;
       grid-template-columns: auto auto auto auto;
       padding: 1em 0;
+    }
+    ul:nth-child(5n + 1) li:first-child {
+      color: #f4cb03;
+    }
+
+    ul:nth-child(5n + 2) li:first-child {
+      color: #f2b09d;
+    }
+
+    ul:nth-child(5n + 3) li:first-child {
+      color: #81bfd1;
+    }
+
+    ul:nth-child(5n + 4) li:first-child {
+      color: #ce627f;
+    }
+
+    ul:nth-child(5n + 5) li:first-child {
+      color: #854921;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
     }
   </style>
 </head>
